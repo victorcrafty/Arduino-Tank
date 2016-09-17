@@ -28,7 +28,7 @@ void setup() {
 
 void loop() {
   
-  long duration, cm;
+  long duration, cm, in;
 
   pinMode(trigPin, OUTPUT);
   digitalWrite(trigPin, LOW);
