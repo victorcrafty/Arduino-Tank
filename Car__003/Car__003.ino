@@ -64,12 +64,12 @@ void forward() {
   digitalWrite(in1, HIGH);
   digitalWrite(in2, LOW);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enA, 200);
+  analogWrite(enA, 255);
   
   digitalWrite(in3, LOW);
   digitalWrite(in4, HIGH);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enB, 200);
+  analogWrite(enB, 255);
 }
 
 void rotate()
@@ -79,12 +79,12 @@ void rotate()
   digitalWrite(in1, HIGH);
   digitalWrite(in2, LOW);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enA, 200);
+  analogWrite(enA, 255);
   
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enB, 200);
+  analogWrite(enB, 255);
 }
 
 void backward() {
@@ -93,12 +93,12 @@ void backward() {
   digitalWrite(in1, LOW);
   digitalWrite(in2, HIGH);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enA, 200);
+  analogWrite(enA, 255);
   
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enB, 200);
+  analogWrite(enB, 255);
   
   delay(1000);
 
